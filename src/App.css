@@ -195,3 +195,18 @@
 .btn:hover{
   background-color: cadetblue;
 }
+
+.card{
+  border: 1px solid gold;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  width: 500px;
+}
+.cards{
+  border: 1px solid gold;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+}

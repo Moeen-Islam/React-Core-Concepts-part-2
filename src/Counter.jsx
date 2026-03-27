@@ -7,6 +7,14 @@ export default function Counter(){
         const newCount  = count + 1
         setCount(newCount)
     }
+    const handelDecrese = () => {
+        const newCount  = count - 1
+        setCount(newCount)
+    }
+    const reset = () => {
+        const newCount = 0
+        setCount(newCount)
+    }
 
     const counterStyle = {
         border: '1px solid white',
@@ -21,6 +29,8 @@ export default function Counter(){
         <div style={counterStyle}>
             <h3>Count : {count}</h3>
             <button className="btn" onClick={handelAdd}>Add</button>
+            <button className="btn" onClick={handelDecrese}>decrese</button>
+            <button className="btn" onClick={reset}>Reset</button>
         </div>
     )
 }
